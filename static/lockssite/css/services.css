@@ -1,0 +1,227 @@
+.title{
+    padding-top: 10px;
+    color: #05A88D;
+    font-weight: bold;
+}
+.all_services{
+
+    background-color: white;
+}
+.one_service{
+    border: #05A88D solid 3px;
+    border-radius: 10px;
+    margin:15px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.description{
+
+    padding: 5px 10px;
+    color: #05A88D;
+    font-weight: bold;
+}
+.price{
+
+    padding: 5px 20px;
+    color: #05A88D;
+    font-weight: bold;
+}
+.contact{
+    margin: 0 auto;
+    background-color: #05A88D;
+    border-radius: 10px;
+}
+.contact_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.title_block_contact{
+    color: white;
+}
+.contact_content{
+    display: flex;
+
+}
+.adress{
+    width: 100%;
+}
+.description{
+    width: 100%;
+}
+.phone{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text_adress{
+    color: white;
+}
+.text_description{
+    color: white;
+}
+.text_phone{
+    color: white;
+}
+.linkphone{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.linkphone:hover{
+    transition: 0.5s;
+    color: wheat;
+}
+
+@media (max-width: 2080px){
+    .map{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .phone{
+        margin-left: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .adress{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .phone_and_adress {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_phone{
+        font-size: 40px;
+    }
+    .text_adress{
+        font-size: 40px;
+    }
+    .text_description{
+        font-size: 40px;
+    }
+    .title_block_contact{
+        font-size:45px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .description{
+        font-size: 35px;
+    }
+    .price{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1920px){
+    .map{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .phone{
+        margin-left: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .adress{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .phone_and_adress {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_phone{
+        font-size: 40px;
+    }
+    .text_adress{
+        font-size: 40px;
+    }
+    .text_description{
+        font-size: 40px;
+    }
+    .title_block_contact{
+        font-size:45px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .description{
+        font-size: 35px;
+    }
+    .price{
+        font-size: 40px;
+    }
+}
+@media (max-width: 440px){
+    .phone{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .adress{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .description{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .text_phone{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text_adress{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text_description{
+        font-size: 25px;
+        text-align: center;
+    }
+    .title_block_contact{
+        font-size:30px;
+    }
+    .contact_content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .map{
+        margin: 10px 0;
+        border-radius: 10px;
+        width: 300px;
+        height: 240px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 23px;
+        padding: 5px 2px;
+    }
+    .price{
+        text-align: center;
+        margin: auto 0;
+
+        font-size: 25px;
+        padding: 5px 8px;
+    }
+}

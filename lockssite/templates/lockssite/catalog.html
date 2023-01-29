@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'lockssite/css/catalog.css' %}">{% endblock %}
+{% block title %}Melange Service Вскрытие замков В Санкт-Петербурге и Ленинградской области{% endblock %}
+{% block content %}
+    <div align="center" class="div_text">
+        <h2>Эта страница находится в разработке</h2>
+        <a href="{% url 'homepage' %}" class="link">
+            <div class="button">
+                <h2 class="buttontext">Вернуться</h2>
+            </div>
+        </a>
+    </div>
+{% endblock %}

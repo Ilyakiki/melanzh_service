@@ -1,0 +1,50 @@
+.div_text{
+    padding-top: 40px;
+    color: #05A88D;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 276px;
+    background-color: #05A88D;
+}
+.buttontext{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.button:hover{
+    border: #05A88D 4px solid;
+    border-radius: 5px;
+    background-color: white;
+    transition: .5s;
+}
+.button:hover .buttontext{
+    color:#05A88D;
+}
+.link{
+    text-decoration: none;
+}
+@media (max-width: 2080px){
+    .div_text{
+        font-size: 45px;
+    }
+}
+@media (max-width: 1920px){
+    .div_text{
+        font-size: 45px;
+    }
+}
+@media (max-width: 440px){
+    .buttontext{
+        font-size: 30px;
+    }
+    .div_text{
+        font-size: 20px;
+    }
+}

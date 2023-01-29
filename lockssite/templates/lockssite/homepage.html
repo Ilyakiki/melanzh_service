@@ -1,0 +1,73 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'lockssite/css/homepage.css' %}">{% endblock %}
+{% block title %}Melange Service Вскрытие замков В Санкт-Петербурге и Ленинградской области{% endblock %}
+{% block content %}
+    <div class="buy">
+        <h2 class="text_under_logo">Вскрываем замки в Санкт‑Петербурге и Ленинградской области</h2>
+        <div class="twocard">
+            <a href="{% url 'services' %}" class="linkcard">
+                <div class="card">
+                    <img src="https://pic.onlinewebfonts.com/svg/img_19530.svg" alt="" class="imagebuy">
+                    <div class="button">
+                        <H2 class="buttontext">Заказать</H2>
+                    </div>
+                </div>
+            </a>
+            <a href="{% url 'catalog' %}" class="linkcard">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Simpleicons_Interface_lock-padlock-symbol-for-protect.svg/640px-Simpleicons_Interface_lock-padlock-symbol-for-protect.svg.png" alt="" class="imagebuy">
+                    <div class="button">
+                        <H2 class="buttontext">Купить</H2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+        <div class="aboutus">
+            <h2 class="title_block">О нас</h2>
+            <p class="text_about_us">Наша компания оказывает услуги дверного мастера, когда требуется вскрыть сломанный замок или экстренно восстановить доступ в квартиру, автомобиль или сейф.</p>
+        </div>
+
+
+    <div class="pluses">
+        <div class="our_pluses_title">
+            <h2 class="title_block_pluses">Почему Именно мы?</h2>
+        </div>
+        <div class="our_pluses">
+            <h2 class="plus">+ Вскрываем 99% замков без повреждений</h2>
+        </div>
+        <div class="our_pluses">
+            <h2 class="plus">+ Замена и ремонт замков сразу на месте</h2>
+        </div>
+        <div class="our_pluses">
+            <h2 class="plus">+ Экономим ваши деньги са счет оптимизации расходов</h2>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="contact_title">
+            <h2 class="title_block_contact">Контакты</h2>
+        </div>
+        <div class="contact_content">
+            <div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acc70a122fb776145b7184fdb70a14cf56afe2302b059fefda6646995a0a75de2&amp;source=constructor" width=500px height=400px  class="map"></iframe>
+            </div>
+            <div class="phone_and_adress">
+                <div class="description">
+                    <h2 class="text_description">Мы всегда будем рады ответить на любые Ваши вопросы, свяжитесь с нами любым удобным для Вас способом!</h2>
+                </div>
+                <div class="adress">
+                    <h2 class="text_adress">Адрес: Санкт-Петербург, Беговая ул., д.5/2</h2>
+                </div>
+                <div class="phone">
+                    <h2 class="text_phone">Телефон:<br> <a href="tel: 89112889911" class="linkphone">8-911-288-99-11</a>, <a href="tel: 4055573" class="linkphone">405-55-73</a></h2>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}

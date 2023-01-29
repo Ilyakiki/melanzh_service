@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+
+}
+.link{
+    text-decoration: none;
+}
+.content{
+
+    max-width: 1920px;
+    padding:0 7px;
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+}
+.logo{
+
+    padding-top: 30px ;
+}
+.logotext{
+
+    color: #05A88D;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+@media (max-width: 2080px) {
+    .content{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 440px) {
+    .logotext{
+        font-size: 40px;
+    }
+}

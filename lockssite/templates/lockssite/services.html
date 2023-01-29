@@ -1,0 +1,38 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'lockssite/css/services.css' %}">{% endblock %}
+{% block title %}Melange Service Вскрытие замков В Санкт-Петербурге и Ленинградской области{% endblock %}
+{% block content %}
+    <h2 align="center" class="title">Наши услуги</h2>
+    <div class="all_services" align="center">
+    {% for service in Services %}
+        <div class="one_service">
+            <h2 class="description">{{ service.description|title }}:</h2>
+            <h2 class="price">{{ service.price }} руб</h2>
+        </div>
+    {% endfor %}
+    </div>
+
+    <div class="contact">
+        <div class="contact_title">
+            <h2 class="title_block_contact">Контакты</h2>
+        </div>
+        <div class="contact_content">
+            <div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acc70a122fb776145b7184fdb70a14cf56afe2302b059fefda6646995a0a75de2&amp;source=constructor" width=500px height=400px  class="map"></iframe>
+            </div>
+            <div class="phone_and_adress">
+                <div class="description">
+                    <h2 class="text_description">Мы всегда будем рады ответить на любые Ваши вопросы, свяжитесь с нами любым удобным для Вас способом!</h2>
+                </div>
+                <div class="adress">
+                    <h2 class="text_adress">Адрес: Санкт-Петербург, Беговая ул., д.5/2</h2>
+                </div>
+                <div class="phone">
+                    <h2 class="text_phone">Телефон:<br> <a href="tel: 89112889911" class="linkphone">8-911-288-99-11</a>, <a href="tel: 4055573" class="linkphone">405-55-73</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

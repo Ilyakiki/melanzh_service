@@ -1,0 +1,353 @@
+.text_under_logo{
+    color: #05A88D;
+    font-weight: bold;
+    text-align: center;
+}
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.twocard{
+    margin-top: 20px;
+    display: flex;
+    max-width: 829px;
+}
+.card{
+    max-width: 360px;
+    border: #05A88D solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card:hover{
+    background-color: #05A88D;
+    transition: .9s;
+}
+.card:hover .button{
+    background-color: white;
+    transition: .5s;
+}
+.card:hover .buttontext{
+    color: #05A88D;
+    transition: .5s;
+}
+.imagebuy{
+    width: 100%;
+    max-width: 276px;
+    border-radius: 10px;
+}
+.linkcard{
+    list-style: none;
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 276px;
+    background-color: #05A88D;
+}
+.buttontext{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: white;
+
+    font-weight: bold;
+
+}
+
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #05A88D;
+    border-radius: 10px;
+}
+.title_block{
+    color: white;
+    margin: 5px auto;
+
+
+}
+.text_about_us{
+    margin-top: 20px ;
+    padding-bottom: 20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+
+    text-align: center;
+}
+.pluses{
+    margin-top: 10px;
+    border: #05A88D solid 2px;
+    border-radius: 10px;
+}
+.our_pluses_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.title_block_pluses{
+    color: #05A88D;
+    margin: 0 auto;
+}
+.our_pluses{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.plus{
+    color: #05A88D;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+
+.contact{
+    margin: 0 auto;
+    background-color: #05A88D;
+    border-radius: 10px;
+}
+.contact_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.title_block_contact{
+    color: white;
+}
+.contact_content{
+    display: flex;
+
+}
+.adress{
+    width: 100%;
+}
+.description{
+    width: 100%;
+}
+.phone{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text_adress{
+    color: white;
+}
+.text_description{
+    color: white;
+}
+.text_phone{
+    color: white;
+}
+.linkphone{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.linkphone:hover{
+    transition: 0.5s;
+    color: wheat;
+}
+
+@media (max-width: 2080px) {
+    .text_under_logo{
+        font-size: 40px;
+    }
+    .map{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .phone{
+        margin-left: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .adress{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .phone_and_adress {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_phone{
+        font-size: 40px;
+    }
+    .text_adress{
+        font-size: 40px;
+    }
+    .text_description{
+        font-size: 40px;
+    }
+    .title_block_contact{
+        font-size:45px;
+    }
+    .plus{
+       font-size: 40px;
+    }
+    .title_block_pluses{
+        font-size: 45px;
+    }
+    .title_block{
+        font-size: 45px;
+    }
+    .text_about_us{
+        font-size: 40px;
+    }
+    .card{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .buttontext{
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .text_under_logo{
+        font-size: 40px;
+    }
+    .map{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .phone{
+        margin-left: 30px;
+    }
+    .description{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .adress{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .phone_and_adress {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_phone{
+        font-size: 40px;
+    }
+    .text_adress{
+        font-size: 40px;
+    }
+    .text_description{
+        font-size: 40px;
+    }
+    .title_block_contact{
+        font-size:45px;
+    }
+    .plus{
+       font-size: 40px;
+    }
+    .title_block_pluses{
+        font-size: 45px;
+    }
+    .title_block{
+        font-size: 45px;
+    }
+    .text_about_us{
+        font-size: 40px;
+    }
+    .card{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .buttontext{
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 440px) {
+    .text_under_logo{
+        font-size: 25px;
+    }
+    .phone{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .adress{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .description{
+
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .text_phone{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text_adress{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text_description{
+        font-size: 25px;
+        text-align: center;
+    }
+    .title_block_contact{
+        font-size:30px;
+    }
+    .contact_content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .map{
+        margin: 10px 0;
+        border-radius: 10px;
+        width: 300px;
+        height: 240px;
+    }
+    .plus{
+       font-size: 20px;
+    }
+    .title_block_pluses{
+        font-size: 30px;
+    }
+    .title_block{
+        font-size: 30px;
+    }
+    .text_about_us{
+        font-size: 20px;
+    }
+    .card{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .buttontext{
+        font-size: 25px;
+    }
+}
