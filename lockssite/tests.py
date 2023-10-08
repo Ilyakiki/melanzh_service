@@ -12,16 +12,34 @@ class ServiceModelTestCase(TestCase):
     def setUp(self):
         print('-'*20)
         self.print_info("Start setUp")
-        self.servece=Service.objects.create(description='Взлом',price=1000)
+        self.service=Service.objects.create(description='Взлом',price=1000)
         Service.objects.create(description='Открытие', price=2000)
         Service.objects.create(description='пролом', price=3000)
         self.print_info("Finish setUp")
 
+    def test_service_create(self):
+        self.print_info('Start test_service_create')
+        self.assertEqual(self.service.description,'Взлом')
+        self.assertEqual(self.service.price, 1000)
+        self.print_info('Finish test_service_create')
     def test_service_get_all_records(self):
         self.print_info('Start test_service_get_all_records')
         service=Service.objects.all()
         self.assertEqual(len(service),3)
         self.print_info('Finish test_service_get_all_records')
+
+    def test_service_get_one_record(self):
+        self.print_info('Start test_service_get_one_record')
+        open=Service.objects.get(description='Открытие')
+        self.assertEqual(open.price,2000)
+        self.print_info('Finish test_service_get_one_record')
+
+    def test_service_str(self):
+        self.print_info('Start test_service_str')
+        expected='Взлом 1000'
+        self.assertEqual(str(self.service),expected)
+        self.print_info('Finish test_service_str')
+
 
 
 class TestMelanzh(TestCase):
