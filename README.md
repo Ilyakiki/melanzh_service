@@ -5,5 +5,5 @@
 
 
 # Технологии:
-Python,Django,HTML,CSS
+Python,Django,HTML,CSS,DRF
 
